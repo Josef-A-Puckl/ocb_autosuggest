@@ -22,13 +22,11 @@ jQuery.widget( "custom.catcomplete", jQuery.ui.autocomplete, {
 	}
 });
 	
-jQuery( "#searchParam" ).catcomplete({
-    source: source,
+jQuery( "#header form .input-group .form-control" ).catcomplete({
+source: source,
     minLength: 2,
     delay:200,
     select: function( event, ui ) {
         showDetailsFromArticle(ui.item.link);
     }
-});
-
-
+});  

@@ -19,9 +19,8 @@ $sMetadataVersion = '1.1';
 $aModule = array(
     'id'           => 'ocb_autosuggestion',
     'title'        => 'OXID Cookbook :: Autosuggestion',
-    'description'  => 'Add a autosuggestion to your search.<br>Diese Modulversion wurde fuer das eComStyle.de Responsive Theme angepasst.',
     'thumbnail'    => 'cookbook.jpg',
-    'version'      => '1.2',
+    'version'      => '1.3',
     'author'       => 'Joscha Krug',
     'url'          => 'http://www.oxid-kochbuch.de',
     'email'        => 'krug@marmalade.de',
@@ -32,11 +31,7 @@ $aModule = array(
     ),
     'blocks' => array(
         array( 
-            'template'  => 'widget/header/search.tpl', 'block' => 'widget_header_search_form', 'file' => '/views/blocks/autosuggest.tpl'
+            'template'  => 'layout/page.tpl', 'block' => 'layout_header', 'file' => '/views/blocks/autosuggest.tpl'
         ),
-    ),
-    'settings' => array(
-        array('group' => 'ocb_main', 'name' => 'ocb_autosuggest_title', 'type' => 'str',  'position' => 1, 'value' => 'Vorschl&auml;ge:'),
-        array('group' => 'ocb_main', 'name' => 'ocb_autosuggest_css', 'type' => 'bool',  'position' => 2, 'value' => 'false'),
     ),
 );

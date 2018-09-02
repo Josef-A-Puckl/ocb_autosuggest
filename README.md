@@ -13,6 +13,11 @@ Version 2.0 for OXID eShop 6 proudly presented by [**Josef A. Puckl | eComStyle.
 - OXID eShop 4 Download: [Link](../../tree/oxid4)
 
 
+### Screenshot
+
+![OXID Cookbook AutoSuggestion](ocbautosuggest.png)
+
+
 ### Module installation via composer
 
     composer config repo.OxidCommunity/OcbAutoSuggest git https://github.com/Josef-A-Puckl/ocb_autosuggest/

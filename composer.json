@@ -1,0 +1,24 @@
+{
+  "name": "oxid-community/ocbautosuggest",
+  "description": "Add a autosuggestion to your search. For OXID eShop 6.",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "admin"
+  ],
+  "homepage": "https://github.com/OXIDprojects",
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oxcom/ocbautosuggest"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidCommunity\\OcbAutoSuggest\\": "../../../source/modules/oxcom/ocbautosuggest"
+    }
+  }
+}

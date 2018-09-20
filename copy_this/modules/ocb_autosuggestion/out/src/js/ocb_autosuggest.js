@@ -1,6 +1,6 @@
 function showDetailsFromArticle( message ) {
     window.location.href = message;
-} 
+}
 
 jQuery.widget( "custom.catcomplete", jQuery.ui.autocomplete, {
 	_renderMenu: function( ul, items ) {
@@ -17,11 +17,11 @@ jQuery.widget( "custom.catcomplete", jQuery.ui.autocomplete, {
 	_renderItem: function( ul, item ) {
 		return jQuery( "<li></li>" )
 			.data( "item.autocomplete", item )
-			.append( "<a>" + "<div style='width:30px; text-align:center;float:left;padding-right:5px;'><img src='" + item.image + "' style='max-height: 30px; max-width: 30px;'/></div><span class='title'>" + item.label + "</span></a>" )
+			.append( "<a>" + "<div style='width:30px; text-align:center;float:left;padding-right:5px;'><img src='" + item.image + "' style='max-height: 30px; max-width: 30px;'/></div><span class='title'>" + item.value + " | "+ item.label + "</span>&nbsp;&nbsp;<span class='price pull-right text-success'>" + item.price + "</span></a>" )
 			.appendTo( ul );
 	}
 });
-	
+
 jQuery( "#header form .input-group .form-control" ).catcomplete({
 source: source,
     minLength: 2,
@@ -29,4 +29,4 @@ source: source,
     select: function( event, ui ) {
         showDetailsFromArticle(ui.item.link);
     }
-});  
+});

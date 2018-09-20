@@ -20,8 +20,8 @@ $aModule = array(
     'id'           => 'ocb_autosuggestion',
     'title'        => 'OXID Cookbook :: Autosuggestion',
     'thumbnail'    => 'cookbook.jpg',
-    'version'      => '1.3',
-    'author'       => 'Joscha Krug',
+    'version'      => '1.4.0',
+    'author'       => 'Joscha Krug, <a href="https://ecomstyle.de" target="_blank" title="eComStyle.de"><span style="font-weight:bold;color: #4169E1">Josef A. Puckl</span></a>',
     'url'          => 'http://www.oxid-kochbuch.de',
     'email'        => 'krug@marmalade.de',
     'extend'       => array(

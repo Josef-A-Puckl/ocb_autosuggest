@@ -241,6 +241,7 @@
             .ui-autocomplete .ui-autocomplete-category{display:none;clear:both;padding:0 0 4px 5px;color:#333;font-weight:700;}
             .ui-autocomplete .ui-menu-item a{display:block;overflow:hidden;padding:5px;line-height:2em;}
             .ui-autocomplete .ui-menu-item a:hover,.ui-menu .ui-menu-item a.ui-state-active,.ui-menu .ui-menu-item a.ui-state-focus{border:1px solid transparent;background:#f2f2f2!important;cursor:pointer;}
+            .text-success {color:#3c763d;}
         </style>
     [{/strip}][{/capture}]
 [{/if}]
